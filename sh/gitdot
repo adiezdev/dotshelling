@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+git config --global credential.helper osxkeychain
+
+export DOTGIT="$DOTPATH/git"
+
+#Configuramos el gitignore global
+mv $DOTGIT/.gitignore $HOME
+
+git config --global core.excludesfile ~/.gitignore
+
+echo '----Configurado git 🐙----'

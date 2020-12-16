@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+export DOTMAINPATH="$DOTPATH/sh/"
+
+#Directorios personales
+array_0=(Fotos Documentos Ilustracciones Audio Projects Prg )
+array_1=(Musica Podcast)
+array_2=(Web Movil Otros)
+array_3=(Ejercicios Cursos)
+ 
+for a0 in "${array_0[@]}"
+do
+    mkdir -p "$HOME/All/$a0"
+done
+
+#Directorios dentrode Musica
+for a1 in "${array_1[@]}"
+do
+    mkdir -p "$HOME/All/Musica/$a1"
+done
+
+#Dentro de Projects
+for a2 in "${array_2[@]}"
+do
+    mkdir -p "$HOME/All/Projects/$a2"
+done
+
+#Dentro de Prg
+for a3 in "${array_3[@]}"
+do
+    mkdir -p "$HOME/All/Prg/$a3"
+done
+
+echo '----Creado los directorios 👨🏻‍🏭----'
+
+source "$DOTMAINPATH/gitdot"
+source "$DOTMAINPATH/homebrew"

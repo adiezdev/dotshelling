@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+echo "------ 👋 Hola Alejandro bienvenido DotShelling 🐚 ---"
+echo "¡Vamos a comezar!"
+
+export DOTPATH="$HOME/.dotfiles"
+
+
+echo "se han clonado los archivos en '$DOTPATH'"
+#Comprobamos que existe git (Sino pedirá sú instalación)
+git --version
+
+#Produccion
+#git clone https://github.com/adilosa95/shelling.git $DOTPATH
+
+#Desarrollo
+cp -R $HOME/All/Proyectos/Otros/shelling $DOTPATH
+
+source "$DOTPATH/sh/main"
