@@ -18,4 +18,4 @@ git --version
 #Desarrollo
 cp -R $HOME/All/Proyectos/Otros/dotshelling $DOTPATH
 
-source "$DOTPATH/sh/main"
+source "$DOTPATH/sh/main" 
