@@ -13,7 +13,7 @@ echo "se han clonado los archivos en '$DOTPATH'"
 git --version
 
 #Produccion
-git clone https://github.com/adilosa95/shelling.git $DOTPATH
+git clone https://github.com/adilosa95/dotshelling.git $DOTPATH
 
 #Desarrollo
 #cp -R $HOME/All/Proyectos/Otros/dotshelling $DOTPATH
