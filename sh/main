@@ -35,3 +35,4 @@ echo '----Creado los directorios 👨🏻‍🏭----'
 
 source "$DOTMAINPATH/gitdot"
 source "$DOTMAINPATH/homebrew"
+source "$DOTPATH/mac/preferences"

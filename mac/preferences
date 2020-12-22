@@ -4,6 +4,4 @@ defaults write com.apple.dock workspaces-auto-swoosh -bool NO;killall dock
 
 defaults write com.apple.dock autohide -bool true;killall dock
 
-defaults write -g com.apple.mouse.scaling 5.0
-
-
+defaults write -g com.apple.mouse.scaling 5.0;killall dock

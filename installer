@@ -16,6 +16,6 @@ git --version
 #git clone https://github.com/adilosa95/shelling.git $DOTPATH
 
 #Desarrollo
-cp -R $HOME/All/Proyectos/Otros/shelling $DOTPATH
+cp -R $HOME/All/Proyectos/Otros/dotshelling $DOTPATH
 
 source "$DOTPATH/sh/main"
