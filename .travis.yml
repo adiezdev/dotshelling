@@ -1,5 +1,1 @@
-deploy:
-  provider: script
-  script: bash ./installer
-  on:
-    branch: main
+script: ./installer
