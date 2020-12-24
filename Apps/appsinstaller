@@ -1,0 +1,19 @@
+ 
+java -version
+
+
+
+#install VSCODE
+brew install --cask visual-studio-code
+
+brew install --cask microsoft-edge
+
+#Android studio
+brew install --cask android-sdk
+brew install --cask android-studio
+
+#PostMan
+brew install --cask postman
+
+#Notion
+brew install --cask notion
