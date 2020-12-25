@@ -1,7 +1,4 @@
  
-java -version
-
-
 #install VSCODE
 brew install --cask visual-studio-code
 
