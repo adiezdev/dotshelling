@@ -7,7 +7,9 @@ defaults write com.apple.dock autohide -bool true
 
 sudo killall Dock
 
-defaults write com.apple.finder AppleShowAllFiles TRUE KillAll Finder
+defaults write com.apple.finder AppleShowAllFiles TRUE 
+
+sudo killall Finder
 
 defaults write -g com.apple.mouse.scaling 5.0
 
