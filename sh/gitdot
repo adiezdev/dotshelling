@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 git config --global credential.helper osxkeychain
+git config --global user.name adilosa95
+git config --global user.email adilosa95@gmail.com
 
 export DOTGIT="$DOTPATH/git"
 
@@ -9,4 +11,4 @@ mv $DOTGIT/.gitignore $HOME
 
 git config --global core.excludesfile ~/.gitignore
 
-echo '----Configurado git 🐙----'
+echo '----Git configurado🐙----'
